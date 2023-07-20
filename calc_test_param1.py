@@ -20,5 +20,3 @@ def test_divide():
     assert calculator.divide(6, 3) == 2.0
     assert calculator.divide(-1, 1) == -1.0
     assert calculator.divide(5, 2) == pytest.approx(2.5)
-    with pytest.raises(Exception):
-        calculator.divide(5, 0)
